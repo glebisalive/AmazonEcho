@@ -1,197 +1,420 @@
 html{
-    box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 *,
 *::after
 *::before{
-    box-sizing: inherit;
+   box-sizing: inherit;
 }
 
 a{
-    text-decoration: none;
+   text-decoration: none;
 }
 
 .container{
-    max-width: 1150px;
-    padding: 0 10px;
-    margin: 0 auto;
-    
+   max-width: 1150px;
+   padding: 0 10px;
+   margin: 0 auto;
+   
 }
 
 body{
-    font-family: 'Open Sans',  sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #000226;
-    background: #DFE6FF;
+   font-family: 'Open Sans',  sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: #000226;
+   background: #DFE6FF;
 }
 
 .top__heading{
-    display: flex;
-    padding: 50px 0 30px;
+   padding: 50px 0 30px;
+   display: flex;
 }
 
 .top__content{
-    padding-top: 90px;
-    width: 50%;
+   width: 50%;
+   padding-top: 90px;
 }
 
 .top__title{
-    text-align: left;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
-    font-size: 43px;
-    line-height: 58px;
-    letter-spacing: 0.04em;
-    margin: 0 auto 35px;
-    max-width: 455px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 800;
+   font-size: 43px;
+   line-height: 58px;
+   letter-spacing: 0.04em;
+   margin: 0 auto 35px;
+   max-width: 455px;
+   text-align: left;
 }
 
 .top__text{
-    text-align: left;
-    font-family: 'Poiret One', cursive;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 40px;
-    letter-spacing: 0.08em;
-    margin: 0 auto 20px;
-    max-width: 455px;
+   font-family: 'Poiret One', cursive;
+   font-weight: bold;
+   font-size: 36px;
+   line-height: 40px;
+   letter-spacing: 0.08em;
+   margin: 0 auto 20px;
+   max-width: 455px;
+   text-align: left;
 }
 
 .buy__btn{
-    width: 175px;
-    height: 23px;
-    text-align: center;
-    letter-spacing: 1px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 18px;
-    color: #fefefe;
-    background-color: #000577;
-    padding: 16px 19px 15px;
-    transition: all .5s;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    display: inline-block;
-    margin-top: 100px;
-    box-shadow: 0px 5px 5px rgba(0, 5, 119, 0.30);
+   height: 23px;
+   text-align: center;
+   letter-spacing: 1px;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 18px;
+   color: #fefefe;
+   background-color: #000577;
+   padding: 16px 19px 15px;
+   transition: all .5s;
+   border: 1px solid transparent;
+   border-radius: 5px;
+   display: inline-block;
+   margin-top: 100px;
+   box-shadow: 0px 5px 5px rgba(0, 5, 119, 0.30);
+   width: 175px;
 }
 
 .buy__btn:hover{
-    color: #000577;
-    background: #DFE6FF;
-    border: 1px solid #000577;
+   background: #DFE6FF;
+   border: 1px solid #000577;
+   color: #000577;
 }    
 
 .top__image{
-    width: 500px;
-    display: flex;
-    position: relative;
-    left: 100px;
-    top: 40px;
+   display: flex;
+   position: relative;
+   left: 100px;
+   top: 40px;
+   width: 500px;
 }
 
 .top__circle{
-    margin-top: 10px;
-    margin-left: 110px;
+   margin-left: 110px;
+   margin-top: 10px;
 }
 
 .top__speaker-back{
-    position: relative;
-    top: 94px;
-    right: 295px;
+   top: 94px;
+   right: 295px;
+   position: relative;
 }
 
 .top__speker-front{
-    position: relative;
-    top: 118px;
-    right: 665px;
+   top: 118px;
+   right: 665px;
+   position: relative;
 }
 
 .top-bottom__element{
-    font-family: 'Poiret One', cursive;
-    font-weight: bold;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    position: relative;
-    right: 500px;
-    top: 355px;
+   font-weight: bold;
+   font-size: 20px;
+   display: flex;
+   align-items: center;
+   position: relative;
+   right: 500px;
+   top: 355px;
+   font-family: 'Poiret One', cursive;
 }
 
 .scroll__img{
-    padding: 15px;
+   padding: 15px;
 }
 
 .s2__main{
-    margin-top: 250px;
+   margin-top: 250px;
 }
 
 .s2__title{
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
-    font-size: 33px;
-    line-height: 58px;
-    letter-spacing: 0.03em;
-    margin-bottom: 100px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 800;
+   font-size: 33px;
+   line-height: 58px;
+   letter-spacing: 0.03em;
+   margin-bottom: 100px;
+   text-align: center;
 }
 
 .s2__text{
-    text-align: left;
-    font-family: 'Poiret One', cursive;
-    font-weight: bold;
-    font-size: 28px;
-    line-height: 40px;
-    letter-spacing: 0.07em;
-    width: 500px;
+   font-family: 'Poiret One', cursive;
+   font-weight: bold;
+   font-size: 28px;
+   line-height: 40px;
+   letter-spacing: 0.07em;
+   width: 500px;
+   text-align: left;
 }
 
 .s2__image-text{
-    float: right;
-    position: relative;
-    right: 110px;
-    bottom: 305px;
+   position: relative;
+   right: 110px;
+   bottom: 305px;
+   float: right;
 }
 
 .s2__image-text-text{
-    font-family: 'Poiret One', cursive;
-    font-size: 25px;
-    font-weight: bold;
-    position: relative;
-    text-align: center;
-    bottom: 315px;
+   font-size: 25px;
+   font-weight: bold;
+   position: relative;
+   text-align: center;
+   bottom: 315px;
+   font-family: 'Poiret One', cursive;
 }
 
 .s2__image-360{
-    position: relative;
-    left: 107px;
-    bottom: 32px;
+   left: 107px;
+   bottom: 32px;
+   position: relative;
 }
 
 .s2__image-top-left{
-    position: relative;
-    bottom: 630px;
-    right: 180px;
+   bottom: 630px;
+   right: 180px;
+   position: relative;
 }
 
 .s2__image-bottom-left{
-    position: relative;
-    bottom: 230px;
-    right: 160px;
+   bottom: 230px;
+   right: 160px;
+   position: relative;
 }
 
 .s2__image-top-right{
-    float: right;
-    position: relative;
-    left: 430px;
-    bottom: 810px;
+   float: right;
+   position: relative;
+   left: 430px;
+   bottom: 810px;
 }
 
 .s2__image-bottom-right{
-    float: right;
-    position: relative;
-    left: 570px;
-    bottom: 430px;
+   position: relative;
+   left: 570px;
+   bottom: 430px;
+   float: right;
+}
+
+.s3__main-info{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.s3__title{
+   width: 700px;
+   position: relative;
+   left: 255px;
+   bottom: 150px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 47px;
+   line-height: 58px;
+   letter-spacing: 0.04em;
+   margin-bottom: 100px;
+} 
+
+.s3__background_image {
+   position: relative;
+   right: 110px;
+   bottom: 1135px;
+}
+
+.s3__main-info-top{
+   width: 850px;
+   display: flex;
+   flex-direction: row;
+   position:relative;
+   right: 15px;
+}
+
+.s3__main-info-top-image{
+   position: relative;
+   bottom: 200px;
+   left: 15px;
+}
+
+.s3__main-info-top-text{
+   position: relative;
+   bottom: 150px;
+   left: 50px;
+}
+
+.s3__main-info-top-text-title{
+   width: 500px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 30px;
+   letter-spacing: 0.05em;
+   line-height: 30px;
+   position: relative;
+   bottom: 53px;
+}
+
+.s3__main-info-top-text-subtext{
+   font-family: 'Poiret One', cursive;
+   font-weight: bold;
+   font-size: 25px;
+   line-height: 30px;
+   letter-spacing: 0.08em;
+   width: 500px;
+   text-align: left;
+   position: relative;
+   bottom: 60px;
+}
+
+.s3__main-info-bottom-image{
+   position: relative;
+   bottom: 350px;
+   left: 605px;
+}
+
+.s3__main-info-bottom{
+   position: relative;
+   bottom: 55px;
+}
+
+.s3__main-info-bottom-text-title{
+   width: 570px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 30px;
+   letter-spacing: 0.05em;
+   line-height: 30px;
+   text-align: right;
+   position: relative;
+   bottom: 110px;
+}
+
+.s3__main-info-bottom-text-subtext{
+   font-family: 'Poiret One', cursive;
+   font-weight: bold;
+   font-size: 25px;
+   line-height: 30px;
+   letter-spacing: 0.08em;
+   width: 570px;
+   text-align: right;
+   position: relative;
+   bottom: 69px;
+}
+
+.s4__main-info{
+   position: relative;
+   bottom: 45px;
+}
+
+.s4__title{
+   width: 700px;
+   position: relative;
+   left: 255px;
+   bottom: 1000px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 47px;
+   line-height: 58px;
+   letter-spacing: 0.04em;
+   margin-bottom: 100px;
+}
+
+.s4__main-info-top{
+   display: flex;
+   flex-direction: row;
+   position: relative;
+   bottom: 1035px;
+}
+
+.s4__main-info-top-description{
+   padding-left: 35px;
+}
+
+.s4__main-info-top-title{
+   font-family: 'Open Sans', sans-serif;
+   font-size: 30px;
+   letter-spacing: 0.05em;
+   line-height: 35px;
+   text-align: left;
+   margin-bottom: 30px;
+}
+
+.s4__main-info-top-text{
+   font-family: 'Poiret One', cursive;
+   font-weight: bold;
+   font-size: 25px;
+   line-height: 35px;
+   letter-spacing: 0.08em;
+   width: 500px;
+   text-align: left;
+}
+
+.s4__functions{
+   display: flex;
+   flex-direction: row;
+   padding-top: 80px;
+}
+
+.s4__functions-left{
+   display: flex;
+   flex-direction: row;
+   position: relative;
+   bottom: 1050px;
+}
+
+.s4__functions-left-description{
+   width: 270px;
+   display: flex;
+   flex-direction: column;
+   margin-top: 30px;
+   position: relative;
+   left: 40px;
+   font-family: 'Poiret One', cursive;
+   font-weight: bold;
+   font-size: 17px;
+   line-height: 20px;
+   letter-spacing: 0.04em;
+}
+
+.s4__functions-left-title{
+   font-family: 'Open Sans', sans-serif;
+   font-size: 20px;
+   letter-spacing: 0.05em;
+   text-align: left;
+   margin-bottom: 20px;
+}
+
+.s4__functions-right{
+   display: flex;
+   flex-direction: row;
+   position: relative;
+   bottom: 1050px;
+   margin-left: 155px;
+}
+
+.s4__functions-right-image{
+   position: relative
+   ;
+}
+
+.s4__functions-right-description{
+   width: 270px;
+   display: flex;
+   flex-direction: column;
+   margin-top: 20px;
+   position: relative;
+   left: 55px;
+   font-family: 'Poiret One', cursive;
+   font-weight: bold;
+   font-size: 17px;
+   line-height: 20px;
+   letter-spacing: 0.04em;
+}
+
+.s4__functions-right-title{
+   font-family: 'Open Sans', sans-serif;
+   font-size: 20px;
+   letter-spacing: 0.05em;
+   text-align: left;
+   margin-bottom: 20px;
+}
+
+.s4__background-image{
+   position: relative;
+   right: 150px;
+   bottom: 1900px;
 }
