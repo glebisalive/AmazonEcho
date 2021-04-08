@@ -363,7 +363,7 @@ body{
    margin-top: 30px;
    position: relative;
    left: 40px;
-   font-family: 'Poiret One', cursive;
+   font-family: 'Poiret One', italic;
    font-weight: bold;
    font-size: 17px;
    line-height: 20px;
@@ -398,7 +398,7 @@ body{
    margin-top: 20px;
    position: relative;
    left: 55px;
-   font-family: 'Poiret One', cursive;
+   font-family: 'Poiret One', italic;
    font-weight: bold;
    font-size: 17px;
    line-height: 20px;
@@ -417,4 +417,88 @@ body{
    position: relative;
    right: 150px;
    bottom: 1900px;
+}
+
+.s5__background{
+   position: relative;
+   right: 186px;
+   bottom: 1700px;
+}
+
+.s5__back-speakers{
+   display: flex;
+   justify-content: center;
+   position: relative;
+   bottom: 2420px;
+}
+
+.s5__back-speakers-left{
+   padding-right: 210px;
+}
+
+.form{
+   width: 545px;
+   height: 515px;
+   background: #000577;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   left: 305px;
+   bottom: 2840px;
+   border-radius: 10px;
+   box-shadow: 0px 8px 15px rgba(0, 5, 119, 0.7);
+}
+
+.form__title{
+   text-align: center;
+   color: #fff;
+   letter-spacing: 0.12em;
+   font-size: 22px;
+   line-height: 30px;
+   position: relative;
+   bottom: 30px;
+}
+
+input {
+   width: 390px;
+   height: 30px;
+   border: none;
+   border-radius: 10px;
+   padding: 10px;
+   margin: 15px;
+   outline: none;
+   font-size: 18px;
+   font-style: italic;
+   font-weight: bold;
+   font-family: 'Poiret One', italic;
+   letter-spacing: 0.12em;
+   color: #000577;
+}
+
+::-webkit-input-placeholder { 
+   color: #000577;
+}
+input[type="number"]::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+}
+
+.form__button{
+   background-color: #ffffff;
+   border: none;
+   padding: 25px 70px 25px 70px ;
+   border: none;
+   border-radius: 10px;
+   font-size: 25px;
+   color: #000577;
+   position: relative;
+   top: 25px;
+   outline: none;
+   cursor: pointer;
+   transition: .3s linear
+}
+
+.form__button:hover{
+   box-shadow: 280px 0 0 0 rgba(0, 5, 119, 0.25) inset;
 }
